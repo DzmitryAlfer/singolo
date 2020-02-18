@@ -1,0 +1,52 @@
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.header {
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+
+    border-bottom: solid #323746 6px;
+    padding: 0px 40px;
+}
+
+.logo {
+    color: #ffffff;
+
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+
+.logo__star {
+    color: #f06c64;
+}
+
+.navigation {
+    color: #ffffff;
+}
+
+.navigation__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation__item {
+
+}
+
+.navigation__link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation__link_selected {
+    color: #f06c64;
+}
